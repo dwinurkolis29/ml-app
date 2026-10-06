@@ -1,14 +1,7 @@
-import {
-  achievements,
-  education,
-  experience,
-  organisation,
-  profile,
-  projects,
-  retrospective,
-  skills,
-  yamlSkills,
-} from "@/data/profile";
+import { organisation, yamlSkills } from "@/data/profile";
+import { getProfileData } from "@/lib/profile-data";
+
+export const revalidate = 60;
 
 const nav = [
   { href: "#experience", label: "Experience" },
@@ -73,7 +66,9 @@ function Tag({ children }: { children: React.ReactNode }) {
   );
 }
 
-export default function Home() {
+export default async function Home() {
+  const { profile, experience, projects, skills, education, achievements, retrospective } =
+    await getProfileData();
   return (
     <>
       <header className="sticky top-3 z-20 px-4">
