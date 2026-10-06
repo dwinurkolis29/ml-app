@@ -6,6 +6,8 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/mokhammad-dwi-nurkolis",
   summary:
     "Android Engineer with 3+ years of experience developing production mobile applications, with a primary focus on Kotlin and native Android development. Experienced in enterprise Android solutions, mobile security assessment, reverse engineering, and Samsung Knox Manage. Also experienced in cross-platform development using Flutter.",
+  status: "studying_data_science",
+  headline: "Android Engineer building secure, production-grade mobile apps.",
   currently:
     "Middle Mobile Developer at XYBER · Master of Informatics (Data Science) student at Universitas Islam Indonesia",
 };
@@ -130,3 +132,40 @@ export const organisation = {
     "Increased new member recruitment by 10% compared with the previous year.",
   ],
 };
+
+export const yamlSkills = [
+  "Kotlin & native Android",
+  "Flutter & Dart",
+  "Mobile security assessment",
+  "Samsung Knox Manage",
+  "MVVM & Clean Architecture",
+  "Firebase & REST API",
+];
+
+export const retrospective = [
+  {
+    year: "2026",
+    title: "Security research & a Data Science master's",
+    text: "Authorized Android security research and reverse engineering, IBM and Flutter certificates, bachelor's degree completed (GPA 3.76), and a Master of Informatics (Data Science) at UII starting in September.",
+  },
+  {
+    year: "2025",
+    title: "BroilerKu",
+    text: "Shipped a Flutter app for broiler farm management with daily feed recording, livestock monitoring, and automated FCR calculations.",
+  },
+  {
+    year: "2024",
+    title: "Fama Agent & the bachelor's journey",
+    text: "Built an Android field reporting app with text, image, and location reports, while starting a bachelor's degree in Informatics.",
+  },
+  {
+    year: "2023",
+    title: "From junior developer to XYBER",
+    text: "First mobile role building a Flutter cashier app, earned the Samsung Knox Manage and BNSP certificates, then joined XYBER as a Mobile Developer in November.",
+  },
+  {
+    year: "2021",
+    title: "Where it started",
+    text: "Began an Associate Degree in Informatics Management at Politeknik Negeri Malang (GPA 3.82) and coordinated a 50+ participant recruitment program at UKM MIMPI.",
+  },
+];
